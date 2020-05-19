@@ -1,0 +1,7 @@
+Observables, Subscribers, Operators
+
+Patron observer(uno a muchos objetos, avisa por cambios del objeto a sus subscriptores), iterator(en objetos, define una interfaz para acceso secuencial a una coleccion) y programacion funcional(funciones con tareas especificas que no mutan los datos).
+
+Observables -> la fuente de informacion. En general, marcados con el $
+Subscribers -> se subscriben a un OBS, no saben como obtiene la info el Obs. Escuchan cambios
+Operators -> transforman, filtra, crea nuevo, convina el observable
