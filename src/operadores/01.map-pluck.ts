@@ -1,4 +1,4 @@
-import { range, fromEvent } from 'rxjs';
+import { fromEvent } from 'rxjs';
 import {map, pluck, mapTo} from 'rxjs/operators';
 
 // range(1,5).pipe(
